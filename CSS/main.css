@@ -43,12 +43,15 @@ section h1{
     margin: auto;
     border-radius: 50%;
 }
+.display-2 , .display-3{
+    text-shadow: 10px 10px 10px gray;
+}
 #profile hr,#gallary hr, #contact hr{
     border:2px dashed white;
     width:40%;
 }
 #profile p{
-    font-family: monospace;
+    font-family: cursive;
     color: white;
 
 }
@@ -89,10 +92,8 @@ border:1px solid #aaa;
     margin: 0px 5px 0px 0px;
     padding:0px 10px 0px 15px;
 }
-#contact .form img{
-    margin:0px 20px 0px 0px;
-    border-radius: 10px;
-border:1px solid black;
+#contact .img img {
+    margin-top:40px;
 }
 #contact .fa-id-card{
     font-size:400%;
@@ -175,5 +176,9 @@ margin-top:60px;
     }
     #gallary .nav-tabs{
         display: block;
+        width:85px;
+    }
+    #contact .img img {
+        margin-top:20px;
     }
 }
